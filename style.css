@@ -448,8 +448,8 @@ footer .content{
     padding-top: 2vh;
 }
 #home .container .right img{
-    height: 30vh;
-    width: 40vw;
+    height: 120px;
+    width: 120px;
     border-radius: 50%;
     border: 5px solid var(--color1);
 }
@@ -621,4 +621,99 @@ footer  {
     text-align: center;
 }
 
+}
+
+
+@media(max-width:765px){
+    /* home */
+    .main .container .left{
+        width: 100%;
+    }
+    .main .container .right{
+        width: 100%;
+        text-align: center;
+    }
+    #home .container .left h1{
+        font-size: 4vh;
+        
+    }
+    #home .container .left h2{
+        font-size: 4vh;
+    }
+    #home .container .left h3{
+        font-size: 3vh;
+    }
+    #home .container .right{
+        padding-top: 2vh;
+    }
+    #home .container .right img{
+        height: 120px;
+        width: 120px;
+        border-radius: 50%;
+        border: 5px solid var(--color1);
+    }
+
+
+
+    #home::-webkit-scrollbar,#home .container::-webkit-scrollbar {
+        display: none;
+    }
+    
+    /* Hide scrollbar for IE, Edge and Firefox */
+    #home,#home .container {
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
+    }
+    /* skill set */
+    #skill::-webkit-scrollbar,.main-container .container::-webkit-scrollbar {
+        display: none;
+    }
+    
+    /* Hide scrollbar for IE, Edge and Firefox */
+    #skill,.main-container .container {
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
+    }
+    /* certificate */
+    #certificate::-webkit-scrollbar,#certificate .main-container .container::-webkit-scrollbar {
+        display: none;
+    }
+    
+    /* Hide scrollbar for IE, Edge and Firefox */
+    #certificate,#certificate .main-container .container {
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
+    }
+    /* footer*/
+    footer ::-webkit-scrollbar {
+        display: none;
+    }
+    
+    /* Hide scrollbar for IE, Edge and Firefox */
+    footer  {
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
+    }
+
+    /* contact */
+    #contact::-webkit-scrollbar {
+        display: none;
+    }
+    #contact  {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+      }
+
+
+    /* project */
+    #project::-webkit-scrollbar,#project .main-container .container::-webkit-scrollbar {
+        display: none;
+    }
+    
+    /* Hide scrollbar for IE, Edge and Firefox */
+    #project,#project .main-container .container {
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
+    }
+    
 }
