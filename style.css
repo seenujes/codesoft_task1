@@ -403,10 +403,10 @@ footer .content{
         ;
     }
     .two{
-        padding: 1px;
+        padding: 0px;
     }
     .two a{
-        padding-right: 2px;
+        padding-right: 0px;
         color: var(--main-color);
         
     }
