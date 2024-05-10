@@ -374,12 +374,6 @@ footer .content{
     color: black;
 }
 
-
-
-
-
-
-
 @media(max-width:600px){
     .head{
         display: block;
@@ -399,11 +393,13 @@ footer .content{
     
     .one{
         font-size: 15px;
-        text-align: center;
+        text-align: center
+        ;
     }
     .two{
         padding: 0px;
-        text-align: center;
+        text-align: center
+        ;
     }
     .two a{
         padding-left: 5px;
@@ -623,7 +619,6 @@ footer  {
 
 }
 
-
 @media(max-width:765px){
     /* home */
     .main .container .left{
@@ -716,4 +711,9 @@ footer  {
       scrollbar-width: none;  /* Firefox */
     }
     
-} */
+}
+
+
+
+
+
