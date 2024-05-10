@@ -435,7 +435,9 @@ footer .content{
 }
 #home .container .left h1{
     font-size: 3vh;
-    
+}
+    #home .container .left h2{
+    font-size: 1vh;
 }
 #home .container .left h3{
     font-size: 2vh;
