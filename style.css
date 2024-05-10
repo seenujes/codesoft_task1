@@ -444,8 +444,8 @@ footer .content{
     padding-top: 2vh;
 }
 #home .container .right img{
-    height: 120px;
-    width: 120px;
+    height: 240px;
+    width: 240px;
     border-radius: 50%;
     border: 5px solid var(--color1);
 }
